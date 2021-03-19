@@ -1,0 +1,70 @@
+#score {
+    text-align: center;
+}
+
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/70/29/black-and-white-forest-game-background-landscape-vector-14067029.jpg");
+    background-size: cover;
+}
+
+#dino {
+    height: 75px;
+    width: 75px;
+    position: relative;
+    top: 225px;
+    background-image: url("https://i.pinimg.com/originals/b0/a3/14/b0a3148d73c66e4153f2bca0f8de9f5f.jpg");
+    background-size: cover;
+    animation: jump 0.5s;
+}
+
+#rock {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 175px;
+    left: 550px;
+    background-image: url("https://toppng.com/uploads/preview/rock-rock-pixel-art-11563244369s0r338s63h.png");
+    background-size: cover;
+    animation: rock 1.33s infinite;
+}
+
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+}
+
+.jump-animation {
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0%{top: 255px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
